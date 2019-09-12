@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.knziha.filepicker.view.HorizontalNumberPicker
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/numberpicker"
+	android:layout_width="wrap_content"
+	android:layout_height="match_parent"
+	android:layout_gravity="end"
+	android:layout_marginEnd="5dp"
+	style="@style/NumberKicker_lt"
+	/>

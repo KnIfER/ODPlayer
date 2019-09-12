@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:UIStyles="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:background="@drawable/dm_dslitem_dragmy"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center"
+        android:layout_marginStart="10dp"
+        >
+
+        <com.knziha.filepicker.widget.CircleCheckBox
+            android:id="@+id/check2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="2dp"
+            UIStyles:dim1="6dp"
+            app:color_background="#FF3F51B5"
+            app:color_border="#FFF"
+            app:size="25dp"
+            android:src="@drawable/clippin"
+            />
+        <com.knziha.filepicker.widget.CircleCheckBox
+            android:id="@+id/check1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="2dp"
+            UIStyles:dim1="6dp"
+            app:color_background="#FF3F51B5"
+            app:color_border="#FFF"
+            app:size="25dp"
+            android:src="@drawable/toxia"
+            android:layout_marginStart="10dp"
+            />
+    </LinearLayout>
+
+	<LinearLayout 
+	    android:id="@+id/checkerr"
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="end|center"
+        android:layout_marginEnd="10dp"
+	    >
+
+  	   <ImageView 
+    		android:id="@+id/wiget1"
+		    android:layout_width="30dp"  
+		    android:layout_height="30dp"
+		    android:padding="0dp"
+            android:src="@drawable/ic_share_black_24dp"
+            android:background="@drawable/surrtrip1"
+	        />
+	    <ImageView 
+    		android:id="@+id/wiget2"
+		    android:layout_width="30dp"  
+		    android:layout_height="30dp"
+		    android:padding="2dp"
+            android:src="@drawable/ic_folder_black_24dp"
+            android:background="@drawable/surrtrip1"
+            android:layout_marginStart="20dp"
+	        />
+
+	</LinearLayout>
+
+
+
+</FrameLayout>

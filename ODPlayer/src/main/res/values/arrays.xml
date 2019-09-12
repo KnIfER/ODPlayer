@@ -1,0 +1,170 @@
+<resources>
+    <string-array name="share_pre_empt"> 
+	    <item>Save preset</item>
+	    <item>Save as ...</item>
+	    <item>↓↓↓Unfold</item>
+	    <item>↑↑↑Fold</item>
+    </string-array>
+
+  	<string-array name="drawer_items">
+        <item>固定搜索词: YES</item>
+		<item>@string/open</item>
+        <item>@string/list</item>
+        <item>@string/video_output</item>
+        <item>d</item>
+        <item>@string/panorama</item>
+		<item>@string/toggle_seeker</item>
+		<item>@string/toggle_looper</item>
+		<item>d</item>
+        <item>@string/custom_menu</item>
+        <item>d</item>
+		<item>@string/settings</item>
+	</string-array>
+
+
+    <string-array name="dict_tweak_arr">
+        <item>Font Color</item>
+	    <item>Annotation List..</item>
+	    <item>Font size++</item>
+	    <item>Font size - -</item>
+    </string-array>
+
+    
+  	<string-array name="internal_favor_dirs"> 
+	    <item>/storage/emulated/0</item>
+	    <item>/ASSET</item>
+	    <item>/data/data/com.knziha.ODPlayer/FFmpeg</item>
+    </string-array>
+
+    <string-array name="decodetype" >
+        <item>软解</item>
+        <item>硬解</item>
+        <item>硬解+</item>
+    </string-array>
+
+    <string-array name="stellarium">
+        <item>地球</item>
+        <item>木星</item>
+    </string-array>
+
+    <integer-array name="stellariumblow">
+        <item>1081522</item>
+        <item>347625</item>
+    </integer-array>
+
+    <string-array name="media_info">
+        <item>Path</item>
+        <item>Date</item>
+        <item>Size</item>
+        <item>Format</item>
+        <item>Minor-Ver.</item>
+        <item>Type Compat.</item>
+        <item>Duration</item>
+        <item>File bitrate</item>
+        <item>Comments</item>
+    </string-array>
+
+    <string-array name="deletepopstyle">
+        <item>@string/del_schema_1</item>
+        <item>@string/del_schema_2</item>
+        <item>@string/del_schema_3</item>
+        <item>@string/del_schema_4</item>
+    </string-array>
+
+    <string-array name="voutmode">
+        <item>MediaPlayer</item>
+        <item>Exoplayer</item>
+        <item>Libvlc</item>
+        <item>Ijkplayer</item>
+    </string-array>
+
+    <string-array name="menu_textbook_common">
+        <item>@string/select_all</item>
+        <item>设置高亮颜色</item>
+        <item>设置下划线颜色</item>
+    </string-array>
+
+    <string-array name="menu_textbook_selecting">
+        <item>复制文本</item>
+        <item>发送文本</item>
+        <item>使用浏览器搜索</item>
+        <item>清除范围内标记</item>
+        <item>改变高亮颜色</item>
+        <item>改变下划线颜色</item>
+        <item>长按扩选</item>
+        <item>取消选择</item>
+    </string-array>
+
+    <string-array name="languages">
+		<item></item>
+		<item>en</item>
+		<item>ar</item>
+		<item>az</item>
+		<item>ca</item>
+		<item>cs</item>
+		<item>da</item>
+		<item>de</item>
+		<item>el</item>
+		<item>es</item>
+		<item>fi</item>
+		<item>fr</item>
+		<item>gl</item>
+		<item>hr</item>
+		<item>hu</item>
+		<item>id</item>
+		<item>it</item>
+		<item>ja</item>
+		<item>ko-rKR</item>
+		<item>lt</item>
+		<item>nb</item>
+		<item>nl</item>
+		<item>pl</item>
+		<item>pt</item>
+		<item>ru</item>
+		<item>sk</item>
+		<item>sl</item>
+		<item>sr</item>
+		<item>sv</item>
+		<item>tr</item>
+		<item>uk</item>
+		<item>zh-rCN</item>
+		<item>zh-rTW</item>
+    </string-array>
+
+	<string-array name="languages_info">
+		<item>System</item>
+		<item>English</item>
+		<item>عربى</item>
+		<item>Azərbaycan</item>
+		<item>Català</item>
+		<item>Čeština</item>
+		<item>Dansk</item>
+		<item>Deutsche</item>
+		<item>ελληνικά</item>
+		<item>Español</item>
+		<item>Suomalainen</item>
+		<item>Française</item>
+		<item>Galego</item>
+		<item>Hrvatski</item>
+		<item>Magyar</item>
+		<item>Indonesian</item>
+		<item>Italiana</item>
+		<item>日本語</item>
+		<item>한국어</item>
+		<item>Lietuvis</item>
+		<item>Norsk</item>
+		<item>Nederlands</item>
+		<item>Polskie</item>
+		<item>Portuguesa</item>
+		<item>русский</item>
+		<item>Slovenský</item>
+		<item>Slovenščina</item>
+		<item>Српски</item>
+		<item>Svenska</item>
+		<item>Türk</item>
+		<item>Українська</item>
+		<item>中文简体</item>
+		<item>中文繁体</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="subtitles">Титлови</string>
+	<string name="use_surfaceview">Use SurfaceView</string>
+	<string name="app_name">ODPlayer</string>
+	<string name="video_output">Видео излаз</string>
+	<string name="use_native">Use native player module</string>
+	<string name="use_google">Use Android Exoplayer</string>
+	<string name="use_vlc">Use libvlc module from videolan</string>
+	<string name="use_bilibili">Use Ijkplayer from bilibili</string>
+	<string name="set_vout">Подесите видео излаз</string>
+	<string name="panorama">Панорама Виев</string>
+	<string name="voice_only">Само глас</string>
+	<string name="op_drawer">Контролна табла</string>
+	<string name="coursera_mode">Режим курса</string>
+	<string name="accurate_seek">Тачно тражи</string>
+	<string name="add_bkmk">Додај обележивач</string>
+	<string name="del_bkmk">Избриши обележивач</string>
+	<string name="pk_audio_track">Аудио запис</string>
+	<string name="trialin">Пробни рад ...... #</string>
+	<string name="trialing">Дозвола ограничена ， наставак суђења ……</string>
+	<string name="stg_grantnow">Грант нов</string>
+	<string name="stg_succ">Дозвола за складиштење је успешно добијена</string>
+	<string name="stg_mannual">Укључите га у подешавања-дозволе-складиштење.</string>
+	<string name="stg_require">Молимо дајте дозволу за складиштење.</string>
+	<string name="stg_statement">Ова апликација не може да ради без дозволе за складиштење.</string>
+	<string name="stgerr_cannot">Дозвола за складиштење није добијена.</string>
+	<string name="stgerr_fail">Жао нам је, али не можете да користите ову апликацију на свом уређају.</string>
+	<string name="path_not_exist">Пут %s не постоји!</string>
+	<string name="panorama_video">Панорама Видео</string>
+	<string name="auto_detect">Аутоматско откривање</string>
+	<string name="invalid_speed">Неподржана брзина:</string>
+	<string name="invalid_duplicate_name">Име већ постоји!</string>
+	<string name="saved">сачувано!</string>
+	<string name="save_failed">сачувај неуспешно!</string>
+	<string name="del_schema_set">Подесите шему брисања</string>
+	<string name="del_schema_1">Обавештење путем дијалога</string>
+	<string name="del_schema_2">Обавештење преко скочног прозора</string>
+	<string name="del_schema_3">Обавештење преко скочних прозора</string>
+	<string name="del_schema_4">Избриши директно</string>
+	<string name="del_schema_1_info">Приказаће се дијалог упозорења.</string>
+	<string name="del_schema_2_info">Покријте дугме једнократним искачањем.</string>
+	<string name="del_schema_3_info">Покријте дугме тврдим скочним прорезом.</string>
+	<string name="del_schema_4_info">Избриши директно !!!</string>
+	<string name="custom_menu">Прилагодите мени</string>
+	<string name="toggle_seeker">Пребацивање тражења дугмића</string>
+	<string name="toggle_looper">Пребаци дугмад за петље</string>
+</resources>

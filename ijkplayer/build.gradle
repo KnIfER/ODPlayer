@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+
+android {
+    //noinspection GroovyAssignabilityCheck
+    compileSdkVersion ver_compileSdkVersion as int
+    //noinspection GroovyAssignabilityCheck
+
+    lintOptions {
+        abortOnError false
+    }
+    defaultConfig {
+        minSdkVersion ver_minsdk
+        targetSdkVersion ver_aimsdk
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+}
+

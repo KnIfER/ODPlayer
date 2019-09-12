@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="use_surfaceview">Use SurfaceView</string>
+	<string name="subtitles">Subtitles</string>
+	<string name="app_name">ODPlayer</string>
+	<string name="video_output">Video Çıxış</string>
+	<string name="use_native">Use native player module</string>
+	<string name="use_google">Use Android Exoplayer</string>
+	<string name="use_vlc">Use libvlc module from videolan</string>
+	<string name="use_bilibili">Use Ijkplayer from bilibili</string>
+	<string name="set_vout">Video Çıxışı seçin</string>
+	<string name="panorama">Panorama Görünüşü</string>
+	<string name="voice_only">Yalnız Səs</string>
+	<string name="op_drawer">İdarə paneli</string>
+	<string name="coursera_mode">Kurs rejimi</string>
+	<string name="accurate_seek">Dəqiq axtarın</string>
+	<string name="add_bkmk">Əlfəcin əlavə edin</string>
+	<string name="del_bkmk">Əlfəcin silin</string>
+	<string name="pk_audio_track">Audio track</string>
+	<string name="trialin">Sınaq…… #</string>
+	<string name="trialing">İcazə məhduddur - davam edən sınaq .......</string>
+	<string name="stg_grantnow">İndi verin</string>
+	<string name="stg_succ">Saxlama icazəsi uğurla alındı</string>
+	<string name="stg_mannual">Zəhmət olmasa parametrlər-icazələr-yaddaşda açın.</string>
+	<string name="stg_require">Zəhmət olmasa saxlama icazəsi verin.</string>
+	<string name="stg_statement">Bu tətbiq yaddaş icazəsi olmadan işləyə bilməz.</string>
+	<string name="stgerr_cannot">Saxlama icazəsi alınmadı.</string>
+	<string name="stgerr_fail">Üzr istəyirik, lakin bu tətbiq cihazınızda istifadə edilə bilməz.</string>
+	<string name="path_not_exist">%s yolu yoxdur!</string>
+	<string name="panorama_video">Panorama Video</string>
+	<string name="auto_detect">Avtomatik aşkar edin</string>
+	<string name="invalid_speed">Dəstəklənməyən sürət:</string>
+	<string name="invalid_duplicate_name">Ad artıq mövcuddur!</string>
+	<string name="saved">xilas oldu!</string>
+	<string name="save_failed">qazanc alınmadı!</string>
+	<string name="del_schema_set">Silinmə sxemini təyin edin</string>
+	<string name="del_schema_1">Bir informasiya qutusu vasitəsilə xəbərdarlıq edin</string>
+	<string name="del_schema_2">Pop-up vasitəsilə xəbərdarlıq</string>
+	<string name="del_schema_3">Popuplar vasitəsilə xəbərdarlıq</string>
+	<string name="del_schema_4">Birbaşa silin</string>
+	<string name="del_schema_1_info">Xəbərdarlıq dialoqu göstəriləcək.</string>
+	<string name="del_schema_2_info">Düyməni birdəfəlik açma ilə örtün.</string>
+	<string name="del_schema_3_info">Düyməni təmkinli bir popup ilə örtün.</string>
+	<string name="del_schema_4_info">Birbaşa silin !!!</string>
+	<string name="custom_menu">Menyu dəyişdirin</string>
+	<string name="toggle_seeker">Düymələri axtarın</string>
+	<string name="toggle_looper">Döngələr düymələrini birləşdirin</string>
+</resources>

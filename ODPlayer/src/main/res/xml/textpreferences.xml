@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:NumberPickerPreference="http://schemas.android.com/apk/res-auto"
+	>
+	<PreferenceCategory
+		android:key="category_program"
+		android:title="@string/coursera_mode"
+		app:icon="@drawable/ic_coursera_mode"
+		>
+		<com.jaredrummler.colorpicker.ColorPickerPreference
+			android:key="f_bg"
+			android:title="背景颜色: "
+			android:defaultValue="0xc0333333"
+			/>
+
+		<com.jaredrummler.colorpicker.ColorPickerPreference
+			android:key="f_color"
+			android:title="文字颜色: "
+			android:defaultValue="0xc0333333"
+			/>
+
+		<com.knziha.settings.NumberPickerPreference
+			android:key="f_size"
+			android:title="文字大小: "
+			android:defaultValue="1"
+			android:widgetLayout="@layout/numberpicker_view"
+			npv_maxValue="12"
+			npv_minValue="0"
+			/>
+	</PreferenceCategory>
+
+
+</PreferenceScreen>

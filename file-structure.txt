@@ -1,0 +1,14 @@
+filepicker:
+--glide
+
+glide:
+--glide
+--gif_decoder
+--gif_encoder
+--disklrucache
+--annotation
+
+modified androidx components:
+--AppPreference
+--AweDesigner
+--AxtAppCompat

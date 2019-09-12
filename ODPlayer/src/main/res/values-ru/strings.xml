@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="subtitles">Субтитры</string>
+	<string name="use_surfaceview">Use SurfaceView</string>
+	<string name="app_name">ODPlayer</string>
+	<string name="video_output">Видео выход</string>
+	<string name="use_native">Use native player module</string>
+	<string name="use_google">Use Android Exoplayer</string>
+	<string name="use_vlc">Use libvlc module from videolan</string>
+	<string name="use_bilibili">Use Ijkplayer from bilibili</string>
+	<string name="set_vout">Установить видеовыход</string>
+	<string name="panorama">Панорамный вид</string>
+	<string name="voice_only">Только голос</string>
+	<string name="op_drawer">Панель управления</string>
+	<string name="coursera_mode">Режим курса</string>
+	<string name="accurate_seek">Точный поиск</string>
+	<string name="add_bkmk">Добавить закладку</string>
+	<string name="del_bkmk">Удалить закладку</string>
+	<string name="pk_audio_track">Звуковая дорожка</string>
+	<string name="trialin">Пробный…… #</string>
+	<string name="trialing">Разрешение ограничено ， продолжение пробной версии ……</string>
+	<string name="stg_grantnow">Грант сейчас</string>
+	<string name="stg_succ">Разрешение на хранение получено успешно</string>
+	<string name="stg_mannual">Пожалуйста включите его в настройках-разрешениях-хранилище.</string>
+	<string name="stg_require">Пожалуйста, дайте разрешение на хранение.</string>
+	<string name="stg_statement">Это приложение не может работать без разрешения на хранение.</string>
+	<string name="stgerr_cannot">Разрешение на хранение не получено.</string>
+	<string name="stgerr_fail">Извините, но не можете использовать это приложение на вашем устройстве.</string>
+	<string name="path_not_exist">Путь %s не существует!</string>
+	<string name="panorama_video">Панорама Видео</string>
+	<string name="auto_detect">Автоматическое распознавание</string>
+	<string name="invalid_speed">Неподдерживаемая скорость:</string>
+	<string name="invalid_duplicate_name">Имя уже существует!</string>
+	<string name="saved">спасен!</string>
+	<string name="save_failed">сохранить не удалось!</string>
+	<string name="del_schema_set">Установить схему удаления</string>
+	<string name="del_schema_1">Оповещение через диалог</string>
+	<string name="del_schema_2">Оповещение через всплывающее окно</string>
+	<string name="del_schema_3">Оповещение через всплывающие окна</string>
+	<string name="del_schema_4">Удалить напрямую</string>
+	<string name="del_schema_1_info">Появится диалоговое окно с предупреждением.</string>
+	<string name="del_schema_2_info">Закройте кнопку одноразовым всплывающим окном.</string>
+	<string name="del_schema_3_info">Накройте кнопку цепким всплывающим окном.</string>
+	<string name="del_schema_4_info">Удалить напрямую !!!</string>
+	<string name="custom_menu">Настроить меню</string>
+	<string name="toggle_seeker">Кнопки переключения поиска</string>
+	<string name="toggle_looper">Кнопки переключения петли</string>
+</resources>

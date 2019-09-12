@@ -1,0 +1,43 @@
+apply plugin: 'com.android.library'
+
+
+//def abi = System.getenv('GRADLE_ABI')?.toLowerCase()
+//ext {
+//    library_version = '3.2-eap2'
+//    repoName = 'Android'
+//    libraryName = 'LibVLC-Android'
+//    lib_artifact = "libvlc-$abi"
+//
+//    libraryDescription = 'Android bindings and API for VLC'
+//}
+android {
+
+    defaultConfig {
+        compileSdkVersion ver_compileSdkVersion as int
+        minSdkVersion ver_minsdk
+        targetSdkVersion ver_aimsdk
+        
+    }
+
+    
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+  
+}
+
+
+dependencies {
+    api (libs_v4)
+    api ('androidx.lifecycle:lifecycle-livedata:2.2.0-alpha01')
+
+}

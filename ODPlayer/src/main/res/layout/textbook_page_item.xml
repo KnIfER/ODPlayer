@@ -1,0 +1,42 @@
+<com.knziha.text.ScrollViewHolder
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:theme="@style/AppTheme"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.knziha.text.SelectableTextViewBackGround
+            android:id="@+id/cover2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:hardwareAccelerated="false"
+            />
+
+        <com.knziha.text.SelectableTextView
+            android:id="@+id/text1"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="false"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:padding="6dp"
+            android:focusable="false"
+            />
+
+        <com.knziha.text.SelectableTextViewCover
+            android:id="@+id/cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:hardwareAccelerated="false"
+            />
+        <!--android:hardwareAccelerated="false"-->
+    </FrameLayout>
+</com.knziha.text.ScrollViewHolder>

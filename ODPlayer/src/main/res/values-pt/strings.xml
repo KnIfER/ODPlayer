@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="subtitles">Legendas</string>
+	<string name="use_surfaceview">Use SurfaceView</string>
+	<string name="app_name">ODPlayer</string>
+	<string name="video_output">Saida de vídeo</string>
+	<string name="use_native">Use native player module</string>
+	<string name="use_google">Use Android Exoplayer</string>
+	<string name="use_vlc">Use libvlc module from videolan</string>
+	<string name="use_bilibili">Use Ijkplayer from bilibili</string>
+	<string name="set_vout">Definir saída de vídeo</string>
+	<string name="panorama">Vista panorâmica</string>
+	<string name="voice_only">Apenas voz</string>
+	<string name="op_drawer">Painel de controle</string>
+	<string name="coursera_mode">Modo Curso</string>
+	<string name="accurate_seek">Procura precisa</string>
+	<string name="add_bkmk">Adicionar marcador</string>
+	<string name="del_bkmk">Excluir marcador</string>
+	<string name="pk_audio_track">Faixa de áudio</string>
+	<string name="trialin">Tentativas…… #</string>
+	<string name="trialing">Permissão limitada ， continuação do teste ……</string>
+	<string name="stg_grantnow">Conceder agora</string>
+	<string name="stg_succ">Permissão de armazenamento obtida com sucesso</string>
+	<string name="stg_mannual">Por favor, ative-o em configurações-permissões-armazenamento.</string>
+	<string name="stg_require">Conceda permissão de armazenamento.</string>
+	<string name="stg_statement">Este aplicativo não pode funcionar sem permissão de armazenamento.</string>
+	<string name="stgerr_cannot">Permissão de armazenamento não obtida.</string>
+	<string name="stgerr_fail">Desculpe, mas não é possível usar este aplicativo no seu dispositivo.</string>
+	<string name="path_not_exist">O caminho %s não existe!</string>
+	<string name="panorama_video">Panorama Vídeo</string>
+	<string name="auto_detect">Detecção automática</string>
+	<string name="invalid_speed">Velocidade não suportada:</string>
+	<string name="invalid_duplicate_name">O nome já existe!</string>
+	<string name="saved">salvou!</string>
+	<string name="save_failed">falha ao salvar!</string>
+	<string name="del_schema_set">Defina o esquema de exclusão</string>
+	<string name="del_schema_1">Alerta via diálogo</string>
+	<string name="del_schema_2">Alerta via pop-up</string>
+	<string name="del_schema_3">Alerta via pop-ups</string>
+	<string name="del_schema_4">Excluir diretamente</string>
+	<string name="del_schema_1_info">Uma caixa de diálogo de alerta será exibida.</string>
+	<string name="del_schema_2_info">Cubra o botão com um pop-up único.</string>
+	<string name="del_schema_3_info">Cubra o botão com um pop-up tenaz.</string>
+	<string name="del_schema_4_info">Excluir diretamente !!!</string>
+	<string name="delete_confirm">Confirmar exclusão</string>
+	<string name="deleting">Excluindo…</string>
+	<string name="deleted">Apagado com sucesso</string>
+	<string name="deleted_not">Falha na exclusão!</string>
+	<string name="custom_menu">Menu Personalizar</string>
+	<string name="toggle_seeker">Alternar botões de busca</string>
+	<string name="toggle_looper">Botões de alternância de loop</string>
+</resources>

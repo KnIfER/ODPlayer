@@ -1,0 +1,20 @@
+<vector android:height="24dp"
+    android:viewportHeight="24.0" android:viewportWidth="24.0"
+    android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--先tranverse翻转， 而后flip，改l后面的负号-->
+    <!--<path android:fillColor="#FF000000" android:pathData="M19,4h-4L7.11,16.63 4.5,12 9,4H5   L0.5,12 5,20h4l7.89,-12.63L19.5,12 15,20h4l4.5,-8z"/>-->
+    <!--完成!!-->
+    <!--<path android:fillColor="#fff" android:pathData="M20,19 v-4 L8,7 12,4.5 20,9V5   L12,0.5 4,5   v4 l12.63,7.89   L12,19.5 4,15 v4  l8,4.5z"/>-->
+    <path android:fillColor="#fff" android:pathData="M20,19v-4L8,7 12,4.5 20,9V5L12,0.5 4,5v4 l12.63,7.89L12,19.5 4,15v4l8,4.5z"/>
+
+
+
+    <!--BG-->
+    <!--<path android:fillColor="#000" android:pathData="M0,0L0,24 24,24 24,0 0,0   M20,19v-4L8,7 12,4.5 20,9V5L12,0.5 4,5v4 l12.63,7.89L12,19.5 4,15v4l8,4.5z"/>-->
+
+    <!--<path android:fillColor="#fff" android:pathData="M20,19v-4L8,7 12,4.5 20,9V5L12,0.5 4,5v4 l12.63,7.89L12,19.5 4,15v4l8,4.5z"/>-->
+
+
+    <!--<path android:fillColor="#fff" android:pathData="M4,19 v-4 L16,7 12,4.5 4,9V5   L12,0.5 20,5 v4l-12.63,7.89   L12,19.5 20,15   v4l-8,4.5z"/>-->
+    <!--<path android:fillColor="#fff" android:pathData="M19,4 v-4 L7,16 4.5,12 9,4V5   L0.5,12 5,20 v4l7.89,-12.63   L19.5,12 15,20   h4l4.5,-8z"/>-->
+</vector>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="subtitles">Субтитри</string>
+	<string name="use_surfaceview">Use SurfaceView</string>
+	<string name="app_name">ODPlayer</string>
+	<string name="video_output">Вихід відео</string>
+	<string name="use_native">Use native player module</string>
+	<string name="use_google">Use Android Exoplayer</string>
+	<string name="use_vlc">Use libvlc module from videolan</string>
+	<string name="use_bilibili">Use Ijkplayer from bilibili</string>
+	<string name="set_vout">Встановити вихід відео</string>
+	<string name="panorama">Панорама</string>
+	<string name="voice_only">Тільки голос</string>
+	<string name="op_drawer">Панель управління</string>
+	<string name="coursera_mode">Режим курсу</string>
+	<string name="accurate_seek">Точний Шукати</string>
+	<string name="add_bkmk">Додати закладку</string>
+	<string name="del_bkmk">Видалити закладку</string>
+	<string name="pk_audio_track">Аудіозапис</string>
+	<string name="trialin">Випробування …… #</string>
+	<string name="trialing">Дозвіл обмежений ， триваюча пробна версія ……</string>
+	<string name="stg_grantnow">Надайте зараз</string>
+	<string name="stg_succ">Дозвіл на зберігання отримано успішно</string>
+	<string name="stg_mannual">Увімкніть його в налаштуваннях-дозволах-сховищах.</string>
+	<string name="stg_require">Будь ласка, надайте дозвіл на зберігання.</string>
+	<string name="stg_statement">Ця програма не може працювати без дозволу на зберігання.</string>
+	<string name="stgerr_cannot">Дозвіл на зберігання не отримано.</string>
+	<string name="stgerr_fail">На жаль, не можна використовувати цю програму на своєму пристрої.</string>
+	<string name="path_not_exist">Шлях %s не існує!</string>
+	<string name="panorama_video">Панорама відео</string>
+	<string name="auto_detect">Автовизначення</string>
+	<string name="invalid_speed">Непідтримувана швидкість:</string>
+	<string name="invalid_duplicate_name">Ім\'я вже існує!</string>
+	<string name="saved">врятовано!</string>
+	<string name="save_failed">зберегти не вдалося!</string>
+	<string name="del_schema_set">Встановіть схему видалення</string>
+	<string name="del_schema_1">Сповіщення через діалогове вікно</string>
+	<string name="del_schema_2">Сповіщення через спливаюче вікно</string>
+	<string name="del_schema_3">Сповіщення через спливаючі вікна</string>
+	<string name="del_schema_4">Видалити безпосередньо</string>
+	<string name="del_schema_1_info">Буде показано діалогове вікно попередження.</string>
+	<string name="del_schema_2_info">Накрийте кнопку одноразовим спливом.</string>
+	<string name="del_schema_3_info">Накрийте кнопку наполегливим спливом.</string>
+	<string name="del_schema_4_info">Видалити безпосередньо !!!</string>
+	<string name="custom_menu">Налаштувати меню</string>
+	<string name="toggle_seeker">Переключити пошук кнопок</string>
+	<string name="toggle_looper">Перемикання кнопок циклу</string>
+</resources>

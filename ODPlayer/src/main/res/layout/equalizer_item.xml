@@ -1,0 +1,15 @@
+<com.knziha.equalizer.VerticalSeekBar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sk1"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:progressDrawable="@drawable/seekbar"
+        android:thumb="@drawable/seekthumb"
+        colorControlHighlight="#fff"
+        android:colorControlHighlight="#fff"
+        app:colorControlHighlight="#fff"
+        android:splitTrack="false"
+		android:layoutDirection="ltr"
+    />

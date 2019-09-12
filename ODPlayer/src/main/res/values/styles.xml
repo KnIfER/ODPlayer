@@ -1,0 +1,153 @@
+<resources>
+	<style name="AppTheme" parent="AppTheme.Base">
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="android:seekBarStyle">@style/seekBarStyle</item>
+		<!--<item name="seekBarStyle">@style/seekBarStyle</item>-->
+
+	</style>
+
+	<style name="seekBarStyle">
+		<item name="colorAccent">#44A0D3</item>
+		<item name="colorControlHighlight">#12ffffff</item>
+	</style>
+
+	<style name="smallSeekBarStyle" parent="seekBarStyle">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:progressDrawable">@drawable/seekbar</item>
+		<item name="android:thumb">@drawable/seekthumb</item>
+		<item name="android:paddingLeft">0dp</item>
+		<item name="android:paddingRight">0dp</item>
+	</style>
+
+	<!--<item name="android:progressDrawable">@drawable/seekbar_progress_drawable</item>-->
+	<style name="checkableText">
+		<item name="colorAccent">#fff</item>
+		<item name="android:textColorSecondary">#fff</item>
+		<item name="colorPrimary">#fff</item>
+	</style>
+	<style name="toolbarBaseTheme" parent="AppTheme">
+		<item name="android:textColorPrimary">@android:color/white</item>
+		<item name="android:textColorSecondary">@android:color/white</item>
+		<item name="colorControlHighlight">#22ffffff</item>
+
+		<item name="colorAccent">@color/colorHeaderBlue</item>
+		<item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+		<item name="android:actionButtonStyle">@style/ActionButtonStyle</item>
+		<item name="android:minWidth">0dip</item>
+		<!-- 	     <item name="contentInsetStartWithNavigation">0dip</item> -->
+	</style>
+
+	<style name="ActionButtonStyle" parent="@android:style/Widget.Holo.Light.ActionButton">
+		<item name="android:minWidth">@dimen/abarmin</item>
+		<!--<item name="android:maxWidth">@dimen/abarmax</item>-->
+		<item name="android:paddingLeft">0dip</item>
+		<item name="android:paddingRight">0dip</item>
+	</style>
+
+	<style name="OverflowMenuStyle" parent="Base.Widget.AppCompat.ListView.Menu">
+		<item name="overlapAnchor">true</item>
+		<item name="android:dropDownVerticalOffset">0dip</item>
+		<item name="android:dropDownHorizontalOffset">15dip</item>
+		<item name="android:popupBackground">@drawable/popup_shadow_ld</item>
+	</style>
+
+	<style name="SettingAppTheme" parent="AppThemeRaw">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorHeaderBlue</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorHeaderBlue</item>
+		<item name="android:windowBackground">#ffffff</item>
+	</style>
+
+	<style name="AppTheme.Base" parent="AppThemeRaw">
+	</style>
+	<style name="AppThemeRaw" parent="Theme.AppCompat.Light.NoActionBar">
+		<!-- Customize your theme here.   <item name="android:windowBackground">@drawable/flash_screen</item>   -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+		<item name="android:windowBackground">@null</item>
+		<item name="switchPreferenceStyle">@style/preferenceStyle</item>
+	</style>
+
+	<style name="FullscreenTheme" parent="PlainAppTheme">
+		<item name="android:windowFullscreen">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+	</style>
+	<style name="PlainAppTheme" parent="AppTheme">
+		<item name="android:windowBackground">@null</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+	<style name="DialogThemeA" parent="PlainAppTheme">
+		<item name="android:windowBackground">@android:color/transparent</item>
+	</style>
+	<style name="DialogThemeB" parent="PlainAppTheme">
+		<item name="android:windowBackground">@android:color/transparent</item>
+	</style>
+	<style name="DialogThemeC" parent="PlainAppTheme">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowFullscreen">true</item>
+	</style>
+	<style name="TransAppTheme" parent="AppTheme">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+	</style>
+
+
+
+	<style name="MenuItemImageViewStyle">
+		<item name="android:layout_width">24dip</item>
+		<item name="android:layout_height">24dip</item>
+	</style>
+	<!-- 菜单TextView的样式 -->
+	<style name="MenuItemTextViewStyle">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:drawablePadding">10.0dip</item>
+		<item name="android:textSize">24.0dp</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+	</style>
+
+	<style name="ProgressTheme" parent="AppTheme">
+		<item name="android:progressDrawable">@drawable/progress</item>
+	</style>
+
+	<style name="pop_animation" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/pop_in</item>
+		<item name="android:windowExitAnimation">@anim/pop_gone</item>
+	</style>
+
+	<style name="SimpleTextRow">
+		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+		<item name="android:gravity">center|left</item>
+		<item name="android:background">@drawable/dm_dslitem_dragmy</item>
+		<item name="android:minHeight">@dimen/item_height</item>
+		<item name="android:paddingLeft">9dp</item>
+		<item name="android:textIsSelectable">true</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+	</style>
+	<style name="SimpleTextRowSimple" parent="SimpleTextRow">
+		<item name="android:background">@null</item>
+	</style>
+
+	<style name="preferenceStyle" parent="Preference.SwitchPreference.Material">
+		<item name="colorPrimary">@color/colorHeaderBlue</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorHeaderBlue</item>
+	</style>
+
+	<style name="layoutDirection">
+		<item name="android:layoutDirection">ltr</item>
+	</style>
+
+	<style name="NumberKicker_lt" parent="NumberKicker_l">
+		<item name="solidColor">#00000000</item>
+	</style>
+</resources>
+

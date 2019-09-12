@@ -1,0 +1,241 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:SwitchCompat="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:UIStyles="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#149999aa"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#149999aa"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        >
+
+        <com.knziha.ODPlayer.SwitchCompatBeautiful
+            android:id="@+id/sw1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/equi"
+            android:thumb="@drawable/switch_ios_thumb"
+            SwitchCompat:track="@drawable/switch_ios_track_selector"
+            UIStyles:dim0="1dp"
+            UIStyles:dim1="1dp" />
+
+        <com.knziha.ODPlayer.SwitchCompatBeautiful
+            android:id="@+id/sw2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_headset_single_24dp"
+            android:thumb="@drawable/switch_ios_thumb"
+            SwitchCompat:track="@drawable/switch_ios_track_selector"
+            UIStyles:dim0="2dp"
+            UIStyles:dim1="1dp" />
+
+
+        <com.knziha.ODPlayer.SwitchCompatBeautiful
+            android:id="@+id/sw4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_headset_back_24dp"
+            android:thumb="@drawable/switch_ios_thumb"
+            SwitchCompat:track="@drawable/switch_ios_track_selector"
+            UIStyles:dim0="2dp"
+            UIStyles:dim1="1dp" />
+
+        <com.knziha.ODPlayer.SwitchCompatBeautiful
+            android:id="@+id/sw3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mute"
+            android:thumb="@drawable/switch_ios_thumb"
+            SwitchCompat:track="@drawable/switch_ios_track_selector"
+            UIStyles:dim0="2dp"
+            UIStyles:dim1="-2dp"
+            />
+
+        <com.knziha.ODPlayer.SwitchCompatBeautiful
+            android:id="@+id/sw5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fullscreen_black_24dp"
+            android:thumb="@drawable/switch_ios_thumb"
+            SwitchCompat:track="@drawable/switch_ios_track_selector"
+            UIStyles:dim0="2dp"
+            UIStyles:dim1="-3dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#149999aa"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        >
+
+        <com.knziha.ODPlayer.SwitchCompatBeautiful
+            android:id="@+id/sw6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fullscreen_stretch"
+            android:thumb="@drawable/switch_ios_thumb"
+            SwitchCompat:track="@drawable/switch_ios_track_selector"
+            UIStyles:dim0="2dp"
+            UIStyles:dim1="-1dp" />
+
+        <com.knziha.ODPlayer.SwitchCompatBeautiful
+            android:id="@+id/sw7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_headset_single_24dp"
+            android:thumb="@drawable/switch_ios_thumb"
+            SwitchCompat:track="@drawable/switch_ios_track_selector"
+            UIStyles:dim0="2dp"
+            UIStyles:dim1="1dp" />
+
+
+        <com.knziha.ODPlayer.SwitchCompatBeautiful
+            android:id="@+id/sw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_headset_back_24dp"
+            android:thumb="@drawable/switch_ios_thumb"
+            SwitchCompat:track="@drawable/switch_ios_track_selector"
+            UIStyles:dim0="2dp"
+            UIStyles:dim1="1dp" />
+
+        <com.knziha.ODPlayer.SwitchCompatBeautiful
+            android:id="@+id/sw9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mute"
+            android:thumb="@drawable/switch_ios_thumb"
+            SwitchCompat:track="@drawable/switch_ios_track_selector"
+            UIStyles:dim0="2dp"
+            UIStyles:dim1="-2dp"
+            />
+
+        <com.knziha.ODPlayer.SwitchCompatBeautiful
+            android:id="@+id/sw10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fullscreen_black_24dp"
+            android:thumb="@drawable/switch_ios_thumb"
+            SwitchCompat:track="@drawable/switch_ios_track_selector"
+            UIStyles:dim0="2dp"
+            UIStyles:dim1="-3dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/listviewselector1"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        >
+        <com.knziha.filepicker.widget.CircleCheckBox
+            android:id="@+id/check1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            UIStyles:dim1="6dp"
+            app:color_background="#FF3F51B5"
+            app:color_border="#fff"
+            app:size="25dp"
+            android:src="@drawable/ic_directions_run_black_24dp"
+            android:layout_marginStart="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/4"
+            android:textColor="#fff"
+            />
+        <SeekBar
+            android:id="@+id/sk1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:theme="@style/seekBarStyle"
+            android:progressDrawable="@drawable/seekbar"
+            android:thumb="@drawable/seekthumb"
+            android:paddingLeft=  "0dp"
+            android:paddingRight= "0dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.0"
+            android:textColor="#fff"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="@drawable/ic_lock_black_24dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/listviewselector1"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        >
+        <com.knziha.filepicker.widget.CircleCheckBox
+            android:id="@+id/check2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            UIStyles:dim1="2dp"
+            app:color_background="#FF3F51B5"
+            app:color_border="#fff"
+            app:size="25dp"
+            android:src="@drawable/voice_ic"
+            android:layout_marginStart="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/4"
+            android:textColor="#fff"
+            />
+        <SeekBar
+            android:id="@+id/sk2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:theme="@style/seekBarStyle"
+            android:progressDrawable="@drawable/seekbar"
+            android:thumb="@drawable/seekthumb"
+            android:paddingLeft=  "0dp"
+            android:paddingRight= "0dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.0"
+            android:textColor="#fff"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="@drawable/ic_lock_black_24dp"
+            />
+    </LinearLayout>
+</LinearLayout>

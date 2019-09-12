@@ -1,0 +1,5 @@
+<resources>
+	<style name="layoutDirection">
+		<item name="android:layoutDirection">inherit</item>
+	</style>
+</resources>

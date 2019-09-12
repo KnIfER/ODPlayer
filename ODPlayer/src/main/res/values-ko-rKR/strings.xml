@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="use_surfaceview">Use SurfaceView</string>
+	<string name="subtitles">Subtitles</string>
+	<string name="app_name">ODPlayer</string>
+	<string name="video_output">Video Output</string>
+	<string name="use_native">Use native player module</string>
+	<string name="use_google">Use Android Exoplayer</string>
+	<string name="use_vlc">Use libvlc module from videolan</string>
+	<string name="use_bilibili">Use Ijkplayer from bilibili</string>
+	<string name="set_vout">Set Video Output</string>
+	<string name="panorama">Panorama View</string>
+</resources>

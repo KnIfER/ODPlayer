@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+	<PreferenceCategory
+		android:key="category_program"
+		android:title="程序设置"
+		app:icon="@drawable/drawer_menu_icon_setting"
+		>
+		<ListPreference
+			android:defaultValue="true"
+			android:key="locale"
+			android:persistent="true"
+			android:title="语言…"
+			android:summary="zh-rCN"
+			android:entryValues="@array/languages"
+			android:entries="@array/languages_info"
+			/>
+
+		<com.knziha.settings.TwinkleSwitchPreference
+			android:defaultValue="true"
+			android:key="save_project_to_database"
+			android:persistent="false"
+			android:title="工程保存到数据库"
+			android:summary="内容包括时间线标记、字幕长文本标记。"
+			/>
+
+		<com.knziha.settings.TwinkleSwitchPreference
+			android:defaultValue="true"
+			android:key="fallback_to_disk"
+			android:persistent="false"
+			android:title="工程保存到文件系统"
+			android:summary="若同时开启上下两项，有ODPlayer子文件夹时, 才存储至该目录下的Json文件，否则保存到数据库。\n若同时关闭，则不保存项目。" />
+
+		<com.knziha.settings.TwinkleSwitchPreference
+			android:defaultValue="false"
+			android:key="transient_focus"
+			android:persistent="false"
+			android:title="AudioManager 只获取临时的声道焦点"
+			android:summary="独占声道时，可自动恢复被打断的其他app。" />
+
+		<com.knziha.settings.TwinkleSwitchPreference
+			android:defaultValue="false"
+			android:key="gradient_background"
+			android:persistent="false"
+			android:title="控件使用渐变背景"
+			/>
+
+		<com.jaredrummler.colorpicker.ColorPickerPreference
+			android:key="back_light2"
+			android:title="上栏控件背光: "
+			android:defaultValue="0xc0333333"
+			/>
+
+		<com.jaredrummler.colorpicker.ColorPickerPreference
+			android:key="back_light"
+			android:title="下栏控件背光: "
+			android:defaultValue="0xc0333333"
+			/>
+
+	</PreferenceCategory>
+
+
+</PreferenceScreen>

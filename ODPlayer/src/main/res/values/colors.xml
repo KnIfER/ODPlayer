@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<color name="colorPrimary">#FF8f8f8f</color>
+    <color name="colorPrimaryDark">#FF3F51B5</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--<color name="colorAccent">#FF3F51B5</color>-->
+
+    <color name="colorHeaderBlue">#2b4381</color>
+    <color name="SelHeaderBlue">#4F7FDF</color>
+    <color name="ActiveBlue">#804F7FFF</color>
+    <color name="ShallowHeaderBlue">#a82b43e1</color>
+    <color name="OldHeaderBlue">#2b43c1</color>
+    <color name="colorHeaderBlueT">#ca2b4381</color>
+    <color name="lightFloatBlue">#80e0f0</color>
+    <color name="colorCoverBlue">#2a417e</color>
+
+    <color name="green">#0b00f0ff</color>
+    <color name="green2">#aa00f0ff</color>
+    <color name="green3">#3300f0ff</color>
+	<color name="zumulv">#009688</color>
+	<color name="gray">#2a8f8f8f</color>
+
+    <color name="seek_bar_background">#ababab</color>
+    <color name="seek_bar_progress">#fff</color>
+    <color name="seek_bar_secondary_progress">#3399CC</color>
+</resources>
